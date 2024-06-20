@@ -1,2 +1,6 @@
-<h1>{{item}}</h1>
-<h2>{{item2}}</h2>
+<!-- <h1>{{item}}</h1>
+<h2>{{item2}}</h2> -->
+
+<!-- child to parent -->
+<input type="text" #box placeholder="Enter">
+<button (click)="dataUpdateEvent.emit(box.value)">Update</button>

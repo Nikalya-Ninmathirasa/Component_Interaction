@@ -1,3 +1,7 @@
-<input type="text" #box placeholder="Enter">
+<!-- <input type="text" #box placeholder="Enter">
 <button  (click)="click(box.value)">Click</button>
-<app-child [item]="data" [item2]="data2"></app-child>
+<app-child [item]="data" [item2]="data2"></app-child> -->
+
+<!-- child to parent -->
+<app-child (dataUpdateEvent)="update($event)"></app-child>
+<h2>{{value}}</h2>

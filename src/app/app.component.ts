@@ -8,10 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Interaction';
 
-  data='sampleData anything';
-  data2=1000;
+  // data='sampleData anything';
+  // data2=1000;
 
-  click(text:string){
-     this.data=text;
+  // click(text:string){
+  //    this.data=text;
+  // }
+  value='hello';
+  update(name:string){
+    this.value=name;
   }
 }
